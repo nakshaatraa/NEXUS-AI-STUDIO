@@ -1,0 +1,70 @@
+# ═══════════════════════════════════════════════════
+# NEXUS AI Studio — .gitignore
+# ═══════════════════════════════════════════════════
+
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# ── Virtual Environments ─────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── IDE / Editor ─────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ── Jupyter Notebooks ────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Streamlit ────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Data Files (large datasets) ──────────────────
+*.csv
+!expenses.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# ── Model Artifacts ──────────────────────────────
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+saved_models/
+
+# ── OS Files ─────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────
+*.log
+logs/
+
+# ── Environment Variables ────────────────────────
+.env
+.env.local
+.env.production
