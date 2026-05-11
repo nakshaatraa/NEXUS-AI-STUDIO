@@ -8,13 +8,19 @@
 </p>
 
 <p align="center">
+  <a href="https://nexus-ai-studio.streamlit.app"><img src="https://img.shields.io/badge/🚀_Live_Demo-nexus--ai--studio.streamlit.app-00c8f0?style=for-the-badge" alt="Live Demo"/></a>
+</p>
+
+<p align="center">
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.10%2B-00c8f0?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+"/></a>
   <a href="https://streamlit.io"><img src="https://img.shields.io/badge/Streamlit-1.30%2B-f05779?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/></a>
   <a href="https://scikit-learn.org"><img src="https://img.shields.io/badge/Scikit--Learn-1.3%2B-f0b429?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-00f5a0?style=for-the-badge" alt="MIT License"/></a>
+  <a href="https://nexus-ai-studio.streamlit.app"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit"/></a>
 </p>
 
 <p align="center">
+  <a href="#-live-demo">Live Demo</a> •
   <a href="#-features">Features</a> •
   <a href="#-screenshots">Screenshots</a> •
   <a href="#-quick-start">Quick Start</a> •
@@ -31,6 +37,16 @@
 **Nexus AI Studio** is a premium, zero-code Automated Machine Learning (AutoML) platform built with Streamlit. Upload any CSV dataset and Nexus will guide you through the entire data science pipeline — from exploratory analysis to model deployment — all within an elegant dark-themed interface.
 
 No coding required. No ML expertise needed. Just upload, analyze, train, and predict.
+
+<br/>
+
+## 🌐 Live Demo
+
+> **Try Nexus AI Studio instantly — no installation required!**
+>
+> 🔗 **[https://nexus-ai-studio.streamlit.app](https://nexus-ai-studio.streamlit.app)**
+
+The app is publicly deployed on **Streamlit Community Cloud** and auto-updates with every push to `main`.
 
 <br/>
 
@@ -154,6 +170,8 @@ streamlit run app.py
 ```
 
 The app will launch at `http://localhost:8501` — upload any CSV file to get started!
+
+> 💡 **Don't want to install locally?** Use the [live demo](https://nexus-ai-studio.streamlit.app) instead!
 
 ### Quick Demo
 
